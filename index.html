@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/f093df13d4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="grad-bg">
+        <div class="background-overlay"></div>
+        <nav>
+            <span class="icon">
+                NETSERIES
+            </span>
+
+            <div class="nav-container">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Shows</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-btn">
+                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
+        </nav>
+
+        <hr class="nav-hr">
+
+        <div class="slideshow">
+            <img class="slide" src="/slide1.jpg" />
+            <img class="slide" src="/slide2.jpg" />
+            <img class="slide" src="/slide3.jpg" />
+        </div>
+
+        <button class="btn-nxt" onclick="next()"><i class="fa-solid fa-chevron-right"></i></button>
+        <p class="btn-pre" onclick="pre()"><i class="fa-solid fa-chevron-left"></i></p>
+
+    </div>
+
+    <section class="content">
+
+        <h1 class="head-title">Now Playing: </h1>
+
+        <div class="item-container">
+            
+        </div>
+
+        <h1 class="head-title">Popular: </h1>
+
+        <div class="item-container">
+            
+        </div>
+
+        <h1 class="head-title">Top Rated: </h1>
+
+        <div class="item-container">
+            
+        </div>
+
+        <h1 class="head-title">Upcoming: </h1>
+
+        <div class="item-container">
+            
+        </div>
+
+    </section>
+
+   
+    <footer>
+
+        <div class="foot" class="foot-b">
+            <h1>NETSERIES</h1>
+            <p class="desc">Your gateway to a world of captivating TV series, films, and documentaries, all in one place.</p>
+        </div>
+
+        <div class="foot">
+            <h2>Categories</h2>
+            <ul>
+                <li>Action</li>
+                <li>Adventure</li>
+                <li>Comedy</li>
+                <li>Horror</li>
+                <li>Thriller</li>
+            </ul>
+        </div>
+
+        <div class="foot">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Tamil</li>
+                <li>Telugu</li>
+                <li>Malayalam</li>
+            </ul>
+        </div>
+
+        <div class="foot">
+            <h2>Social</h2>
+            <ul>
+                <li><p class="foot-icon"><i class="fa-brands fa-facebook"></p></i></li>
+                <li><p class="foot-icon"><i class="fa-brands fa-twitter"></p></i></li>
+                <li><p class="foot-icon"><i class="fa-brands fa-instagram"></p></i></li>
+                <li><p class="foot-icon"><i class="fa-brands fa-youtube"></p></i></li>
+            </ul>
+        </div>
+
+    </footer>
+
+            <script src="/script.js"></script>
+</body>
+
+</html>
