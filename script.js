@@ -23,7 +23,7 @@ const slideImg = () => {
 }
 
 const backg = () => {
-    gradbg.style.backgroundImage = `url(${slides[counter].src})`;
+    gradbg.style.backgroundImage = `url(/netseries${slides[counter].src})`;
     console.log("chang")
 }
     
